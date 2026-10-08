@@ -1,0 +1,20 @@
+{
+  "com.example.login.LoginViewModelTest#loginSuccess": {
+    "module": ":feature:login",
+    "target_class": "LoginViewModel",
+    "feature": "登录状态处理",
+    "purpose": "验证有效凭据返回成功状态"
+  },
+  "com.example.login.LoginViewModelTest#loginInvalidCredentials": {
+    "module": ":feature:login",
+    "target_class": "LoginViewModel",
+    "feature": "登录错误处理",
+    "purpose": "验证错误凭据显示失败状态"
+  },
+  "com.example.login.LoginViewModelTest#loginPending": {
+    "module": ":feature:login",
+    "target_class": "LoginViewModel",
+    "feature": "等待状态处理",
+    "purpose": "验证等待场景被明确标记为跳过"
+  }
+}

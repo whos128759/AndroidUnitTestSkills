@@ -1,0 +1,7 @@
+<testsuite name="LoginViewModelTest" tests="3" failures="1" errors="0" skipped="1">
+  <testcase classname="com.example.login.LoginViewModelTest" name="loginSuccess" time="0.1" />
+  <testcase classname="com.example.login.LoginViewModelTest" name="loginInvalidCredentials" time="0.2">
+    <failure message="wrong">&lt;script&gt;alert(1)&lt;/script&gt;</failure>
+  </testcase>
+  <testcase classname="com.example.login.LoginViewModelTest" name="loginPending"><skipped /></testcase>
+</testsuite>
